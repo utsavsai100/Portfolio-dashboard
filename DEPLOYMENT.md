@@ -17,7 +17,7 @@ Since your backend uses in-memory caching and scraping, it requires a **persiste
 2.  Go to [dashboard.render.com](https://dashboard.render.com/) and create a new **Web Service**.
 3.  Connect your GitHub repository.
 4.  Configure the service:
-    - **Root Directory**: `backend`
+    - **Root Directory**: `backend` (Do **NOT** set this to `npm` or leave blank)
     - **Runtime**: Node
     - **Build Command**: `npm install`
     - **Start Command**: `npm start`
